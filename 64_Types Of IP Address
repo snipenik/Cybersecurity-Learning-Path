@@ -1,0 +1,21 @@
+1.Public/External IP
+•	Assigned by an Internet Service Provider (ISP) to identify your home network to the outside world.
+
+Public IP Ranges:
+Class A: 1 – 126
+Class B: 128 – 191
+Class C: 192 – 223
+Class D: 224 – 239
+Class E: 240 – 255
+
+2.Private/Internal IP
+•	An IP address issued by your router to identify devices inside your network.
+•	Not visible to the world and cannot locate them.
+
+Private IP Ranges:
+Class A: 10.0.0.0 - 10.255.255.255
+
+Class B: 172.16.0.0 - 172.31.255.255
+
+Class C: 192.168.0.0 - 192.168.255.255
+
