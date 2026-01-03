@@ -1,0 +1,12 @@
+/etc/passwd
+• Stores basic user account information.
+• Readable by all users.
+• Does not store actual passwords.
+
+Contains:Username,UID,GID,Home directory,Default shell
+
+/etc/group
+• Stores group information.
+• Readable by all users.
+
+Contains: Group name,GID,List of group members
