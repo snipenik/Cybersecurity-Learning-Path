@@ -2,20 +2,32 @@ A structured cybersecurity knowledge repository 🔐 based on my personal learni
 
 This repository includes:
 Cybersecurity fundamentals 🧠
-Linux essentials and system administration 🐧
+Linux essentials and LINUX administration 🐧
 Windows fundamentals 🪟
 Networking and network security fundamentals 🌐
-Web fundamentals and web application security 🌍
+Web fundamentals {OWASAP TOP ,WASC ,SANS TOP 25} 
 Cryptography basics 🔑
-Cybersecurity compliance and security frameworks 📜
-Social engineering techniques 🎭
-Reconnaissance methodologies 🔍
+Cybersecurity compliance and security frameworks 📜 { GDPR,NIST,PCI-DSS,Cyber Kill Chain,MITRE Frame Work } 
+Social engineering 🎭
 Linux and Windows privilege escalation 🚀
 Proxy and VPN tools 🛡️
 Remote and local port forwarding 🔁
 Steganography 🖼️ etc...
+Wireshark Display Filters
+CVE, CVSS, CWE Introduction 🚨
+Types of Penetration Testing 🛠️
+Red Team vs Blue Team 🔴🔵
+Black Box / White Box / Grey Box Penetration Testing 📦
+Top Network Protocols 🌐
+What Is Exploits & Exploit Types & Payloads 💥
+Brute Force vs Dictionary vs Rainbow Table Attacks 🔐
+Staged vs Stageless Payloads 🚀
+MySQL Tool (Database Connection & Enumeration) 🗄️
+Single Pivot (Practical) 🔁
+DoS / DDoS Concepts & Practical ⚠️
+Cloud Computing Fundamentals ☁️ {IaaS ,PaaS ,SaaS} etc....
 
-👉It also provides extensive hands-on experience 💻 with industry-standard cybersecurity tools such as Nmap, Wireshark, Nessus, Nikto, Metasploit (msfconsole), John the Ripper, Hashcat, Hydra, and Medusa ⚙️.
+👉It also provides extensive hands-on experience 💻 with industry-standard cybersecurity tools such as Nmap, Wireshark, Nessus, Nikto, ZAP,Metasploit (msfconsole), John the Ripper, Hashcat, ettercap, bettercap Hydra, and Medusa, Angry IP Scanner, Crunch , CUPP, CEWL, Hping3, HOIC, Slowloris, Seeker , CamPhish, BEEF ,WpScan ,Joomscan ,Dirb & Dirbuster ⚙️ etc...
 
 🚨Note: This GitHub repository included some concepts only to impress, Explore the link below to access the complete learning content 📚.
 
