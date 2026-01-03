@@ -1,0 +1,16 @@
+sudo chmod 777 filename/dirname
+• Changes the permissions of a file or directory.
+
+777 gives full permissions to:Owner,Group,Others
+
+Meaning of 777:
+Owner → 7 (read + write + execute)
+Group → 7 (read + write + execute)
+Others → 7 (read + write + execute)
+
+
+Permission Numbers Meaning (4, 2, 1, 0) :
+4	Read (r)
+2	Write (w)	
+1	Execute (x)	Run file
+0	No permission
