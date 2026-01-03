@@ -1,0 +1,4 @@
+Promiscuous mode is a network interface setting where a NIC captures all network packets it sees on the network segment—not only packets addressed to itself.
+
+sudo ifconfig eth0 promisc  {ON} 
+sudo ifconfig eth0 -promisc {OFF} 
