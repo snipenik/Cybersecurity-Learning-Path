@@ -1,0 +1,5 @@
+sudo su,su,su root
+• Switches to the root user
+
+su username
+• Switches to the specified user account.
