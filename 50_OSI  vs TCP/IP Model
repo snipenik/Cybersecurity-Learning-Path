@@ -1,0 +1,12 @@
+OSI Model (Open Systems Interconnection Model)
+•	Developed by ISO (International Organization for Standardization).
+•	Has 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.
+•	Theoretical model that helps understand how networking works in layers.
+•	Rarely used in real-world implementation, mainly for learning purposes.
+
+
+2. TCP/IP Model (Transmission Control Protocol/Internet Protocol Model)
+•	The U.S. Department of Defense (DoD) through DARPA (Defense Advanced Research Projects Agency).
+•	Has 4 layers: Network Interface, Internet, Transport, and Application.
+•	Practical model used in real-world networks, including the Internet.
+•	Designed for real communication protocols like TCP, IP, UDP, etc.
