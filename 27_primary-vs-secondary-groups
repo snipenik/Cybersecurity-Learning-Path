@@ -1,0 +1,15 @@
+Primary Group
+• The default group assigned to a user when the account is created.
+• Every user has exactly one primary group.
+• New files created by the user are owned by this group by default.
+• The primary group is stored in /etc/passwd.
+
+Example: If user user1 has primary group user1, files created by user1 belong to group user1.
+
+Secondary Group
+• Additional groups assigned to a user.
+• A user can belong to multiple secondary groups.
+• Used to give extra permissions without changing the primary group.
+• Secondary groups are stored in /etc/group.
+
+Example: User user1 added to sudo, docker, or developers groups.
