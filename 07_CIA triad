@@ -1,0 +1,19 @@
+1.Confidentiality 
+•	confidentiality refers to protecting Information From unauthorized access. 
+ 
+2.Integrity 
+•	integrity refers data have not been modified, deleted by unauthorized user. 
+ 
+3.Availability  
+•	Availability refers data are accessible when you need them. 
+ 
+4.Authentication 
+•	Authentication is the process of verifying the identity of a user, device, or system. 
+ 
+5.Authorization 
+•	Authorization is the process of granting or denying access to resources, systems, or applications, based on the authenticated user's identity, role, or permissions. 
+ 
+6.Non-Repudiation 
+•	Important to ensure that a Party cannot deny having sent (or) a received message. 
+ 
+•	common techniques used to establish non repudiation include digital signatures, message authentication codes, time stamps. 
