@@ -1,0 +1,21 @@
+                                                                                                    Proxy Tools:
+
+1.git clone https://github.com/Und3rf10w/kali-anonsurf.git
+cd kali-anonsurf
+./installer.sh
+
+sudo anonsurf start
+sudo anonsurf stop
+sudo anonsurf status
+
+
+2.git clone https://github.com/brainfucksec/kalitorify.git
+sudo apt install tor
+cd kalitorify
+sudo make install
+
+
+sudo kalitorify -t = start 
+sudo kalitorify -c = stop
+sudo kalitorify -s = status
+
