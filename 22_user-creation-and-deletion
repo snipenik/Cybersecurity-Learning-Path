@@ -1,0 +1,7 @@
+adduser user1
+• Creates a new user account named user1.
+• Automatically creates a home directory, assigns a default shell, and prompts to set a password.
+
+deluser --remove-home user1
+• Deletes the user account user1.
+• Also removes the user’s home directory and personal files.
