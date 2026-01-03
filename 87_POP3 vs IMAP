@@ -1,0 +1,10 @@
+POP3 (Post Office Protocol ):
+Receive emails from a remote server
+ Automatically download them to a local email client
+ Delete emails from the server after download
+ Use port 110 (non-encrypted) or 995 (encrypted with SSL/TLS)
+
+IMAP: 
+IMAP stands for Internet Message Access Protocol, and it's used by email clients to access and manage emails stored on a remote mail server.
+Unlike POP3, IMAP doesn't download and delete your emails from the server by default — instead, it keeps emails on the server and syncs them across all devices.
+Uses 143 (non-encrypted) , 993 (encrypted with SSL/TLS)
