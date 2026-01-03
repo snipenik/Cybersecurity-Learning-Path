@@ -1,0 +1,36 @@
+1. Repeater
+Function: Repeater capture weak and strong signals 
+If the signal is strong, the repeater simply forwards it without much change.
+If the signal is weak, the repeater amplifies it (boost strength )before sending it further.
+Example:Captures weak Wi-Fi signals and retransmits them with stronger power.Type: A 2-port device.
+Layer: Works at the Physical Layer (Layer 1) of the OSI model.
+
+2.Bridge
+Function: Operates at the Data Link Layer (Layer 2).
+Use Case: Used for interconnecting two LANs that use the same protocol.
+Key Feature: Bridges maintain MAC addresses to forward traffic efficiently.
+
+3.Modem
+Function: A modem (Modulator-Demodulator) is a network device that converts digital signals into analog signals and vice versa to enable communication over telephone lines, cable, or fiber networks.
+Phiscal layer , and some time in data link layer also work
+
+
+How a Modem Works?
+
+1. Modulation (Digital → Analog)
+Converts digital data from a computer into analog signals for transmission over traditional phone or cable lines.
+
+2. Demodulation (Analog → Digital)
+Converts received analog signals back into digital data for the computer to understand.
+
+
+4.Router
+A router is a network device that forwards data packets between different networks.
+It operates at the Network Layer (Layer 3) of the OSI model.
+It determines the best path for data to reach its destination using routing tables.
+
+5.Access Point
+An Access Point (AP) is a network device that allows wireless devices to connect to a wired network.
+It extends the range of a Wi-Fi network by acting as a bridge between wired and wireless networks.
+Works at the Data Link Layer (Layer 2) of the OSI model.
+Example: In the office building with 7 floors, a router should be placed on the 4th floor, and access points should be installed on the remaining floors. These access points will connect to the 4th-floor router either wirelessly or via Ethernet, ensuring that devices on all floors will have internet access.
