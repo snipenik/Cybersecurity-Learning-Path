@@ -1,0 +1,4 @@
+Usermod -L username , Usermod -U username
+Passwd -l username , Passwd -u username
+Chage  -E 2028-01-01 username
+Usermod -s /sbin/nologin username , Usermod -s /bin/false username
