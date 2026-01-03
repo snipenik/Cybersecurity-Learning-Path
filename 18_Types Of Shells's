@@ -1,0 +1,35 @@
+1. Bourne Shell (sh)
+• The original UNIX shell developed by Stephen Bourne.
+• Basic scripting and command execution.
+• Usually located at /bin/sh.
+
+2. Bourne Again Shell (bash)
+• An enhanced version of the Bourne Shell.
+• Most commonly used Linux shell.
+• Supports scripting, command history, tab completion, and job control.
+• Default shell in many Linux distributions.
+
+3. C Shell (csh)
+• Syntax similar to the C programming language.
+• Supports aliases and command history.
+• Less commonly used today.
+
+4. TENEX C Shell (tcsh)
+• An improved version of C Shell.
+• Provides auto-completion and command editing.
+• More user-friendly than csh.
+
+5. Korn Shell (ksh)
+• Combines features of sh and csh.
+• Powerful scripting capabilities.
+• Widely used in enterprise UNIX systems.
+
+6. Z Shell (zsh)
+• Advanced shell with powerful features.
+• Supports auto-suggestions, advanced tab completion, and themes.
+• Popular among developers and power users.
+
+7. Fish Shell (fish)
+• User-friendly and interactive shell.
+• Provides syntax highlighting and auto-suggestions by default.
+• Not fully POSIX-compliant, but easy for beginners.
