@@ -1,0 +1,17 @@
+SSH Configuration File :
+sudo nano /etc/ssh/sshd_config (All changes are done in this file)
+
+
+Change Default SSH Port (22 → Custom Port) :Port 2222
+
+
+Disable root login: PermitRootLogin no
+Enable root login : PermitRootLogin yes
+
+Allow or Deny Specific Users : AllowUsers user1 user2
+                               DenyUsers user3
+
+
+
+Enable / Disable Password-Based Authentication : PasswordAuthentication yes
+                                                 PasswordAuthentication no
