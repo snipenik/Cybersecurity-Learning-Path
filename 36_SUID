@@ -3,7 +3,7 @@ SUID (Set User ID):
 • Commonly used when a normal user needs to perform a privileged task safely.
 
 Enable / Disable SUID :
-chmod u+s filename,chmod 4777 filename  # enable SUID
+chmod u+s filename,chmod 4755 filename  # enable SUID
 chmod u-s filename   # disable SUID
 
 
