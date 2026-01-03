@@ -1,0 +1,16 @@
+1. Active Footprinting
+• Involves direct interaction with the target system or network.
+• This type of footprinting may alert the target.
+
+Examples: Using network scanning tools such as Nmap and Wireshark
+          Sending ping requests to check whether a system is online
+          Enumerating services and open ports
+
+
+2. Passive Footprinting
+• Involves collecting information from publicly available sources without directly interacting with the target system.
+• This method is stealthy and does not alert the target.
+
+Examples: Searching on Google, social media platforms, and company websites
+          Gathering information from WHOIS databases, DNS records, and job postings
+          Using Open-Source Intelligence (OSINT) tools such as Shodan and Maltego
