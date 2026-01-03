@@ -1,0 +1,11 @@
+chown user1 file/dir
+• Changes the owner (user) of the file or directory to user1.
+• The group ownership remains unchanged.
+
+chgrp group1 filename/dir
+• Changes the group ownership of the file or directory to group1.
+• The user (owner) remains unchanged.
+
+chown user1:group1 filename/dir
+• Changes both the owner and the group of the file or directory.
+• user1 becomes the owner and group1 becomes the group.
