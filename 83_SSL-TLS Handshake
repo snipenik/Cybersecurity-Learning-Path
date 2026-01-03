@@ -1,0 +1,40 @@
+What does it do?
+•	Encrypts data between a client and server.
+•	Authenticates the server’s identity.
+•	Enables secure HTTPS connections.
+
+1.	Client (Browser) sends ClientHello:
+o	Proposes TLS version, cipher suites, and random data.
+
+2.	Server responds with ServerHello:
+o	Chooses TLS version and cipher suite.
+o	Sends its SSL certificate (containing public key).
+
+3.	Client validates the SSL certificate:
+o	Checks issuer, expiration, domain name, and certificate chain.
+o	Ensures it trusts the Certificate Authority (CA).
+
+4.	Client generates a session key:
+o	Encrypts it with the server’s public key from the certificate.
+
+5.	Client sends the encrypted session key to the server.
+
+6.	Server decrypts the session key with its private key.
+
+7.	Both now have the same symmetric session key, used for encrypting data during the session.
+
+8.	Server sends an acknowledgment (Finished message).
+
+9.	Secure encrypted communication begins between client and server
+
+
+How Communication Works After the Session Key is Shared :
+✅ 1. Client → Server
+•	The client wants to send secure data to the server.
+•	It uses the session key to encrypt the data (e.g., a login form).
+•	The server receives the encrypted data and uses the same session key to decrypt it.
+
+✅ 2. Server → Client
+•	The server wants to send secure data back (e.g., a web page or response).
+•	It uses the same session key to encrypt the response.
+•	The client receives the encrypted data and uses the same session key to decrypt it.
