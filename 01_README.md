@@ -2,7 +2,7 @@ A structured cybersecurity knowledge repository 🔐 based on my personal learni
 
 This repository includes:
 Cybersecurity fundamentals 🧠
-Linux essentials and LINUX administration 🐧
+Linux essentials and LINUX administration 🐧 
 Windows fundamentals 🪟
 Networking and network security fundamentals 🌐
 Web fundamentals {OWASAP TOP ,WASC ,SANS TOP 25} 
