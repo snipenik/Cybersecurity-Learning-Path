@@ -1,0 +1,24 @@
+A port is a logical communication endpoint that allows data to be sent to the correct application/service on a device.
+👉 Think of ports as doors through which network data enters or leaves a system.
+
+                                                                              
+                                                                               Types Of Ports :
+🔸 Well-Known Ports
+Range: 0 – 1023
+Used by: Standard services
+Examples: 21 → FTP
+          22 → SSH
+          80 → HTTP
+          443 → HTTPS
+
+🔸 Registered Ports
+Range: 1024 – 49151
+Used by: Applications & services
+Examples: 3306 → MySQL
+         3389 → RDP
+         8080 → HTTP-Alt
+
+🔸 Dynamic / Private Ports
+Range: 49152 – 65535
+Used by: Temporary client connections
+Example: Browser source ports
