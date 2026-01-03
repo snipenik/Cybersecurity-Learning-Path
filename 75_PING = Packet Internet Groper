@@ -1,0 +1,16 @@
+To test whether a host is alive or not
+
+Command : ping -C 5 dishtv.in
+
+
+Working Flow (Step-by-Step):
+1.Your system sends an ICMP Echo Request to the target.
+2.Target receives the request and sends an ICMP Echo Reply.
+
+
+Default TTL Values : It Helps To Target System  OS
+OS	Default TTL
+Linux	64
+macOS	64
+Windows	128
+Cisco / Network Devices	255
