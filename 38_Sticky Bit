@@ -1,0 +1,32 @@
+Sticky Bit
+• When the sticky bit is applied to a directory, only the file owner (creator), the directory owner, or root can delete or rename files inside that directory.
+• Other users cannot delete files created by someone else, even if they have write permission on the directory.
+
+Enable Sticky Bit on a Directory : chmod 1777 dir
+
+Permission meaning:
+1 → Sticky Bit
+7 → Owner: rwx
+7 → Group: rwx
+7 → Others: rwx
+
+Practical Example (Directory) :
+mkdir dir
+chmod 1777 dir
+cd dir
+touch file1
+
+su user1
+touch file2
+
+su user2
+touch file3
+
+su user1
+rm file2     # allowed (user1 owns file2)
+
+su user2
+rm file3     # allowed (user2 owns file3)
+
+user1 cannot delete file3
+user2 cannot delete file2
