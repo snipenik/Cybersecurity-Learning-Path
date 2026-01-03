@@ -1,0 +1,8 @@
+sudo usermod -aG groupname username
+• Adds the user username to the secondary group groupname.
+
+sudo usermod -rG groupname username
+• Removes the user username from the secondary group groupname.
+
+sudo usermod -g groupname username
+• Sets groupname as the primary group of the user username.
