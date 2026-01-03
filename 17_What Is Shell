@@ -1,0 +1,24 @@
+Shell :
+• A shell is a special user-level program that provides an interface between the user and the operating system.
+• It accepts human-readable commands from the user and converts them into instructions that the kernel can understand.
+
+
+How a Command Works (Step-by-Step) :
+
+1.User types a command
+• The user interacts with the shell by typing a command in the terminal.
+
+2.Shell checks command validity
+• The shell checks for syntax errors and verifies whether the command is valid.
+
+3.Shell translates the command
+• If valid, the shell converts the command into a kernel-understandable form, usually using system calls.
+
+4.Shell sends the request to the kernel
+• The translated request is forwarded to the kernel for execution.
+
+5.Kernel executes the command
+• The kernel performs the requested operation and returns the result.
+
+6.Terminal displays the output
+• The shell receives the result from the kernel and displays it to the user in the terminal.
