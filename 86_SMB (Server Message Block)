@@ -1,0 +1,7 @@
+SMB shares are network folders or resources shared from a computer or server.
+Shared folders can contain documents, PDFs, images, executables, etc.
+SMB shares are easily accessible within a local network (LAN) when file sharing and permissions are properly configured.
+Accessing SMB shares over the internet (WAN) is insecure and not recommended unless protected using a VPN or tunneling.
+Each file or folder can have different permissions such as read, write, execute, or full control.
+Common SMB share names include default administrative shares like C$, ADMIN$, IPC$, and custom shares like Public or user-created shares.
+SMB commonly uses port 445 (TCP) for direct communication over TCP/IP.
