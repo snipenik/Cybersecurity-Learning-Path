@@ -1,0 +1,11 @@
+groups
+• Displays the groups of the currently logged-in user.
+
+groups user1
+• Displays all groups that the user user1 belongs to.
+
+id -Gn user1
+• Displays group names only for the user user1.
+
+id -G user1
+• Displays group IDs (GIDs) for the user user1.
