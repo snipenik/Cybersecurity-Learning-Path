@@ -1,0 +1,56 @@
+SGID (Set Group ID):
+• SGID allows a file or directory to run or behave with the group ownership of the file/directory, not the user’s default group.
+• Only users who are members of that group can execute/access it.
+• For others (not in the group), it will not work.
+
+Enable / Disable SGID:
+chmod g+s filename or chmod 2750 filename   # enable SGID
+chmod g-s filename   # disable SGID
+
+SGID on Executable Files Example :
+whereis id
+cp /usr/bin/id id2
+addgroup group1
+chown saijain:group1 id2
+usermod -aG group1 user1
+chmod 2750 id2
+sudo chmod 711 /home/saijain
+
+
+Switch user and execute:
+su user1
+./id2
+/home/saijain/id2
+
+What happens ?
+• user1 can execute id2 only because they are a member of group1.
+• The program runs with group1 as the effective group.
+• Users not in group1 cannot execute it.
+
+Permission Meaning: 2750
+2 → SGID
+7 → Owner: rwx
+5 → Group: r-x
+0 → Others: ---
+
+SGID on Directories Example:
+mkdir dir
+chmod 2770 dir
+cd dir
+touch file1
+sudo usermod -aG kali user1
+su user1
+cd /home/saijain/dir
+touch file2
+
+Observation:
+
+• file1
+Owner: kali
+Group: group1
+
+• file2
+Owner: user1
+Group: group1
+
+👉 Even though different users created the files, both files belong to the same group (group1).
