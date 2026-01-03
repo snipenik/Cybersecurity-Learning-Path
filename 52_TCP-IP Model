@@ -1,0 +1,19 @@
+                                                        TCP/IP model
+
+1.Application layer
+•	Combines OSI’s Application, Presentation, and Session layers
+Protocols :SFTP, NFS,HTTP, FTP, Telnet, NTP,DHCP, PING, HTTPS,SMTP, POP3, IMAP,ICMP, SSH, RDP,DNS, SSL, TLS
+
+
+2.Transport layer
+•	Handles TCP (reliable) & UDP (fast, unreliable).
+                               TCP / UDP
+
+
+3.Internet layer (Network layer)
+•	 Routing, IP addressing (IP, ARP, ICMP)
+
+
+4.Network access layer (Physical layer)
+•	Combines OSI’s Data Link & Physical layers
+•	 Ethernet, Fiber,Routers, Switches...
