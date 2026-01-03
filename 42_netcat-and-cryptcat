@@ -1,0 +1,17 @@
+Just for chatting (both sides) :
+Netcat:
+nc -lvp 4444
+nc ip portno
+
+Cryptcat:
+cryptcat -k 123456 -nlvp 4444
+cryptcat -k 123456 ip portno
+
+Sending & Receiving Files:
+Netcat:
+nc -lvp 4444 < filename
+nc ip portno > filename
+
+Cryptcat:
+cryptcat -k 123456 -nlvp 4444 < filename
+cryptcat -k 123456 ip portno > filename
