@@ -1,0 +1,75 @@
+                                                                               Open system Interconnection model (OSI)
+
+1. Application Layer (Data)
+•	This is the topmost layer of the OSI model.
+•	It allows software applications to transfer and receive data over the network.
+•	It provides user interface services, like web browsing, email, and file transfer.
+Examples: HTTP, FTP, SMTP, DNS, etc.
+
+
+2. Presentation Layer(data)
+•	This layer is responsible for data formatting and translation.
+•	It converts data into a format that can be understood by the receiving device.
+
+Examples of conversions:
+Decimal → Binary
+ASCII → EBCDIC
+Hexadecimal → Binary
+Binary → Decimal
+
+•	encryption and decryption data for secure communication.
+•	Data compression, decompression  happens here to reduce data size for faster transmission.
+
+
+3. Session Layer(data)
+•	Manages and controls connections (sessions) between devices.
+•	Responsible for establishing, maintaining, and terminating connections.
+•	Supports authentication and authorization to verify users and devices.
+•	Example: When you log in to a website, the session layer maintains your session so that you don’t need to log in again on every page.
+
+
+         
+ 4. Transport Layer
+•	Ensures reliable data transfer between devices.
+•	The main purpose of this layer is to allow communication between machines
+•	Uses two key protocols:
+
+TCP (Transmission Control Protocol) → Connection-oriented, reliable, ensures data arrives correctly (Stateful).
+
+                                 Data call him segments
+
+UDP (User Datagram Protocol) → Connectionless, faster but less reliable (Stateless).
+
+                               Data call him Datagrams 
+
+•	Provides end-to-end communication, error correction, and flow control to prevent network congestion.
+          
+
+5. Network Layer (Packets)
+•	Determines the best path for data transmission across networks.
+•	Routes data between different networks using IP addresses.
+•	It ensures logical addressing (IP addresses) and handles packet forwarding.
+
+
+6. Data Link Layer (Frames)
+•	Provides error-free data transfer between two devices on the same network.
+•	The main purpose of this layer is to allow communication within a network.
+•	Uses MAC addresses for communication.
+•	Splits data into frames for transmission.
+
+
+7. Physical Layer (Bits)
+•	The lowest layer responsible for actual data transmission.
+•	Data transfers using like cables, switches, fiber optics, and radio  signals.
+•	Converts data into electrical, radio, or optical signals.
+•	Ensures data transmission happens physically through a medium.
+
+
+Note on OSI Model :
+•	Not every communication follows all 7 layers of the OSI model.
+•	The number of layers used depends on the situation, application, and network type.
+
+
+Example:
+•	Direct device communication (e.g., ARP, ICMP) may not require Session, Presentation, or Application layers.
+•	Simple data transfer (e.g., TFTP) may not need Session and Presentation layers
