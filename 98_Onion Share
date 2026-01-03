@@ -1,0 +1,15 @@
+1.Send file to onion server
+You can send a file using OnionShare. It gives you an onion link — anyone with this link can download the file.
+
+2.Start a receiver
+You can start a receiver in OnionShare. It gives you an onion link — anyone can use this link to upload a file to you.
+
+3.Host a website with file.html
+You can host a static website by selecting an HTML file (like file.html) in OnionShare. It creates an onion link that works as a website on the dark web.
+
+4.Anonymous chat between two persons in the dark web
+You can create a private chat room in OnionShare. It gives you an onion link — share it with another person to chat anonymously through the Tor network.
+
+NOTE: just Tick at this is a public onion shareservice 
+
+Download Link : https://onionshare.org/#download
