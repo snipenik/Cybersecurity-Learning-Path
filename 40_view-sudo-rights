@@ -1,0 +1,6 @@
+sudo -l
+• Lists sudo privileges of the current user.
+ 
+ Shows: Which commands can be run
+        As which user (root or others)
+        Whether a password is required
