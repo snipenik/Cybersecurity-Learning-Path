@@ -1,0 +1,26 @@
+A TCP flag is a control bit in the TCP header used to manage and control TCP connections (establish, transfer data, and terminate connections).
+
+                                                                                                                                                                    
+🔸 URG (Urgent)
+
+Indicates urgent data is present
+Urgent Pointer field is valid
+Data should be processed immediately
+
+🔸 PSH (Push)
+
+Tells receiver to process data immediately
+Do not wait for buffer to fill
+Common in interactive applications
+
+🔸 FIN (Finish)
+
+Gracefully closes the connection
+Sender has no more data to send
+Used in normal TCP termination
+
+🔸 RST (Reset)
+
+Immediately terminates the connection
+Sent when connection is invalid or refused
+Seen during port scanning or crashes
