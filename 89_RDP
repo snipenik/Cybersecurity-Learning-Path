@@ -1,0 +1,5 @@
+RDP stands for Remote Desktop Protocol. It’s a proprietary protocol developed by Microsoft that allows a user to connect and control another computer remotely over a network.
+With RDP, you can see the remote computer’s desktop on your screen.
+You can interact with the remote system as if you were sitting right in front of it — running apps, managing files, troubleshooting, etc.
+It’s commonly used for remote administration, tech support, and accessing work computers from home.
+It uses 3389 port 
