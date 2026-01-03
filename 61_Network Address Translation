@@ -1,0 +1,12 @@
+•	NAT allows multiple devices on a private network to share a single public IP address when accessing the internet. 
+
+NAT Working Method:
+•	1. A device on a private network sends a packet to a destination on the internet.
+
+•	2. The NAT device (e.g., a router) intercepts the packet and modifies the private source IP to a public IP address.
+
+•	3. The NAT device also modifies the source port uniquely to ensure that return traffic is routed back to the correct device on the private network.
+
+•	4. The modified packet is sent to the destination on the internet.
+
+•	5. When the destination responds, the NAT device receives the packet and modifies the destination IP and port to match the original private IP address and port number of the device that sent the packet.
