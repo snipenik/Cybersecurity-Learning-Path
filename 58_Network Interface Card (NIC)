@@ -1,0 +1,21 @@
+                                                           Network Interface Card (NIC)
+                                                           
+•	A network interface card is a hardware component that connects a computer to a network.
+•	It is responsible for transmitting and receiving data packets over a network.
+•	a MAC (Media Access Control) address is linked to a NIC (Network Interface Card)
+                                                                  
+                                                                   
+                                                                    Types of NIC:
+
+
+1.Wired NIC
+•	Wired NICs use a physical cable to connect to a network.
+•	Such as an Ethernet cable.
+
+2.Wireless NIC
+•	Wireless NIC uses radio waves to connect to a network.
+•	Such as Wi-Fi.
+
+3.Virtual NIC
+•	Virtual NICs are software-based NICs that provide a virtual network interface for virtual machines .
+
