@@ -1,0 +1,22 @@
+SUID (Set User ID):
+• SUID allows an executable file to run with the permissions of the file owner, not the user who executes it.
+• Commonly used when a normal user needs to perform a privileged task safely.
+
+Enable / Disable SUID :
+chmod u+s filename,chmod 4777 filename  # enable SUID
+chmod u-s filename   # disable SUID
+
+
+Practical Example (Executable File):
+whereis cat
+cp /usr/bin/cat cat2
+chown root:root cat2        # change owner to root (example purpose)
+chmod u+s cat2 or chmod 4755 cat2
+
+
+Now execute the file:
+./cat2 /etc/shadow
+/home/saijain/cat2 /etc/shadow
+
+• Even when executed by a normal user, the command can read /etc/shadow.
+• This happens because the file runs with root privileges.
