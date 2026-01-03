@@ -1,0 +1,25 @@
+SSH (Secure Shell)
+• SSH (Secure Shell) is a cryptographic network protocol used for secure communication between two systems.
+• It is commonly used for remote login and remote command execution over an insecure network.
+
+SSH encrypts data to prevent:
+Eavesdropping
+Data tampering
+MITM (Man-in-the-Middle) attacks
+
+• Default port: 22
+
+Install OpenSSH Server : sudo apt install openssh-server
+Install OpenSSH Client : sudo apt install openssh-client
+
+Start the service :
+sudo service ssh start
+
+Stop the service :
+sudo service ssh stop
+
+Restart the service :
+sudo service ssh restart
+
+
+Connecting : ssh username@ip , ssh username@ip portno
