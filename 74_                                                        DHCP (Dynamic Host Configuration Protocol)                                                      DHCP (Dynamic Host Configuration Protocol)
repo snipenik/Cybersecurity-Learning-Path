@@ -1,0 +1,17 @@
+•	DHCP is a network management protocol used to automate the dynamic assignment of IP addresses to devices on a network.
+
+DHCP Work Flow:
+
+Step 1: DHCP Discover
+•	A device (e.g., laptop or phone) sends a DHCP Discover message to the network (broadcast).
+
+Step 2: DHCP Offer
+•	The DHCP server receives the Discover message and responds with a DHCP Offer message, which includes:
+•	Available IP addresses , subnet mask , lease duration etc..
+
+Step 3: DHCP Request
+•	The client device receives the offer and sends a DHCP Request message to the server, accepting the offered IP address.
+
+Step 4: DHCP Acknowledgment (ACK)
+•	The DHCP server receives the request and responds with a DHCP Acknowledgment message, confirming the IP address assignment
+NOTE: After entered the password and connected to the router this  process start ,dhcp server located in router.
