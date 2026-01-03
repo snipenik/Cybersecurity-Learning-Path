@@ -1,0 +1,20 @@
+#sudo nano /etc/hosts
+•  Local DNS resolver:
+Maps hostnames to IP addresses before any DNS query is made.
+•  Checked first:
+The linux system checks /etc/hosts before querying a DNS server.
+4.224.249.75 eduplusnow.com { at end of the file }
+
+Whenever you try to open the site by directly typing eduplusnow.com in the browser's address bar, it automatically redirects to a DishTV-related page.
+However, if you search for "eduplusnow" on Google and click the link from the search results, it redirects correctly to the original Eduplusnow website, not the DishTV-related page.
+
+#sudo nano /etc/resolv.conf
+It is the configuration file that defines the DNS (Domain Name System) servers your system uses to resolve hostnames to IP addresses.
+nameserver 1.1.1.1
+nameserver 8.8.8.8
+nameserver 9.9.9.9
+
+How it works:
+The system will first try the first DNS server (1.1.1.1).
+If the first one fails or times out, it will try the second (8.8.8.8).
+If that also fails, it will try the third (9.9.9.9).
