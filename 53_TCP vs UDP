@@ -1,0 +1,31 @@
+
+TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are network communication protocols used for transmitting data over the Internet
+
+                                                                       
+                                                                         TCP vs UDP
+
+
+1.TCP (Transmission Control Protocol)
+
+•	Connection-oriented protocol - connection must be established before data is sent.
+•	Means that the communicating devices should establish a connection before transmitting data and should close the connection after transmitting the data.
+•	TCP is reliable and guarantees the safe delivery of the data to the destination.
+•	TCP provides extensive error-checking mechanism in both header and data.
+•	TCP is comparatively slower than UDP.
+•	Retransmission of lost packets is possible in TCP.
+•	If a packet is lost during transmission due to network issues (like congestion, errors, or interference), the protocol used for communication can detect the loss and retransmit the lost packet.
+•	TCP 3-way handshake.
+•	TCP is used by HTTP, HTTPS, FTP, SMTP, Telnet.
+•	Used in critical applications.
+
+
+2.UDP (User Datagram Protocol)
+
+•	Connectionless - Data is sent without any prior setup or handshake. Each packet is sent independently.
+•	The delivery of the data to the destination cannot be guaranteed in UDP.
+•	UDP has no error-checking mechanism.
+•	UDP is faster than TCP.
+•	There is no retransmission of lost packets.
+•	No handshake.
+•	UDP is used by DHCP, DNS, SNMP, VoIP, RIP.
+•	Used in real-time applications- online games  , video streaming 
