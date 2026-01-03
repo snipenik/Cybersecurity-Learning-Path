@@ -1,0 +1,14 @@
+FTP (File Transfer Protocol)
+• FTP (File Transfer Protocol) is a standard network protocol used to transfer files between a client and a server over a TCP/IP network, such as the internet.
+
+FTP Uses Two Ports :
+Port 21 (Control Port)
+• Used for command and control communication between the FTP client and server.
+• Handles commands such as ls, pwd, cd, get, put, etc.
+• Establishes and maintains the FTP session.
+
+Port 20 (Data Port)
+• Used for data transfer.
+• Handles: File uploads and downloads
+           Directory listings
+           Other data communication
