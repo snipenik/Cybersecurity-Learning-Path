@@ -1,0 +1,17 @@
+1.Command Line Interface (CLI):
+• Users interact with the system by typing text commands.
+• Requires keyboard input and knowledge of commands.
+• Faster and more powerful for advanced tasks and automation.
+• Uses less system resources (CPU and RAM).
+• Commonly used by system administrators, developers, and cybersecurity professionals.
+
+Examples: Linux Terminal, Windows CMD, PowerShell
+
+2.Graphical User Interface (GUI):
+• Users interact with the system using graphics such as windows, icons, menus, and buttons.
+• Uses mouse and keyboard for interaction.
+• Easy to learn and user-friendly.
+• Requires more system resources.
+• Commonly used by general users.
+
+Examples: Windows Desktop, macOS, GNOME, KDE
