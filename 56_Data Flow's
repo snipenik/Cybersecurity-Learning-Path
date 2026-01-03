@@ -1,0 +1,19 @@
+Data Flow in Networking
+•	The flow of data between two nodes is called data flow.
+•	Based on the direction of data movement it can be classified into three types.
+
+1. Simplex
+•	Data flows in one direction only.
+•	The sender can only send, and the receiver can only receive.
+•	Example: TV broadcasting, Radio transmission. 
+
+2. Half-Duplex
+•	Data flows in both directions, but one at a time.
+•	The sender and receiver take turns communicating.
+•	Example: Walkie-talkies, Two-way radios.
+
+3.Full-Duplex
+•	Data flows in both directions simultaneously { bi-directional } 
+•	Both sender and receiver can send and receive data at the same time.
+•	Example: Telephone calls, Video conferencing.
+
