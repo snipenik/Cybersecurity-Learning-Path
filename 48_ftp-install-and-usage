@@ -1,0 +1,28 @@
+Installing FTP Servers : sudo apt install vsftpd
+                         sudo apt install proftpd -y
+                         sudo apt install pure-ftpd -y
+
+  Connecting to an FTP Server: ftp ip
+
+  get filename
+• Downloads a file from the FTP server to the local client machine.
+
+put filename
+• Uploads a file from the local client machine to the FTP server.
+
+
+ASCII Mode
+• Used for text files.
+• Transfers data line by line.
+• Automatically converts line endings (Linux ↔ Windows).
+• Suitable for files like: .txt,.html,.csv,.log
+
+FTP command: ascii
+
+Binary (BIN) Mode
+• Used for non-text (binary) files.
+• Transfers data exactly as it is, with no modification.
+• Prevents file corruption.
+• Suitable for files like:.zip,.exe,.jpg,.png,.mp3,.pdf
+
+FTP command: binary or bin
