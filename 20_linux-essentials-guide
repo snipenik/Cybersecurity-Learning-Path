@@ -1,0 +1,198 @@
+apt update
+
+apt upgrade
+
+apt install <package-name>
+
+apt remove <package-name>
+
+apt remove --purge <package-name>
+
+apt autoremove
+
+What is the difference between configurations and dependencies in Linux packages?
+
+dpkg -i <file>.deb
+
+dpkg -r <file>
+
+What is the difference between a relative path and an absolute path in Linux?
+
+What are the uses of the following terminal shortcuts:
+Ctrl+Shift+C, Ctrl+Shift+V, Ctrl+L, Ctrl+A, Ctrl+E, Ctrl+C, Ctrl+Z, Ctrl+K, Ctrl+Shift+D, Ctrl+Shift+R, Ctrl+Shift+T, Ctrl+Shift+=, Ctrl+-, Ctrl+0?
+
+man command/toolname and command/toolname -h/--help
+
+whoami, echo $USER, id, echo $UID, id -u username
+
+hostname, uname -n, hostnamectl set-hostname newname
+
+pwd, echo $PWD
+
+ip a, ip addr, ifconfig
+
+ls, ls -l, ls -la, ls -r, ls -t, ls -i
+
+ps $$, echo $0
+
+user1 , sudo usermod -s /bin/bash $(whoami)
+
+bash , /bin/bash , exec bash
+
+wheris <command/executable>, which <command/executable>, command -v id, type cat, realpath $(which id), readlink -f $(which id)
+
+clear, exit
+
+touch, mkdir
+
+rm, rmdir, rm -rf
+
+cat filename, sed ‘’ filename
+
+uname -a, cat /etc/os-release, lsb_release -a
+
+nano, pluma, vi, vim, mousepad
+
+tree, tree dirname, tree /
+
+file <file name>
+
+test -f filename && echo "file" || echo "Not a file"
+
+#test -d dirname && echo "Directory" || echo "Not a directory"
+
+#test -x exfile && echo "Executable file" || echo "Not executable"
+
+cp, mv
+
+, >>, < difference
+
+wc, head, tail tool’s
+
+locate, find tool’s
+
+more, less tools’s
+
+truncate
+
+cat /etc/shells
+
+history, history -c, HISTSIZE0=
+
+tar tool
+
+gzip, gunzip tools’
+
+cut, grep, sed, awk tool’s
+
+sort, sort -r
+
+soft link vs hard link difference
+
+ln -s filename <non existed filename>
+
+ln filename <non existed file name>
+
+echo $TERM, tput -T$TERM longname, printenv TERM
+
+alias sai=”ls-l”, unalias sai
+
+jobs, jobs -l
+
+• fg
+• fg %1, fg %2
+• fg %+, fg %-
+
+ps, ps -u username, ps -g groupname
+
+ps -aux, top
+
+kill <pid/jobid>, kill -9 <pid/job id>, killall <process name>, pkill -u username
+
+crontab tool
+
+who /var/log/wtmp
+
+ls -lsh <file name /dir>
+
+watch -n <second’s> <command>
+
+netstat -antp, ss -antp, nmap -p- localhost
+
+free -m, free -h
+
+service <service name> start, systemctl start name
+
+service name stop, systemctl stop name
+
+service name restart, systemctl restart name
+
+service name status, systemctl status name
+
+systemctl enable –now name
+
+systemctl is-enabled name
+
+systemctl disable name
+
+systemctl mask name
+
+systemctl unmask name
+
+curl <url> -o filename, curl -I ip, curl -O “lp/filename”, curl -X OPTIONS -i http://example.com/
+
+python3 -m http.server {8000}
+python3 -m http.server 80
+python2 -m SimpleHTTPServer {8000}
+python2 -m SimpleHTTPServer 80
+ruby -run -e httpd . -p 80
+ruby -run -e httpd / -p 80
+npx http-server -p 80
+
+wget http://ip:portno
+
+rdesktop ip
+
+route -n, ip r, nmcli device show | grep IP4.GATEWAY
+
+uptime
+
+lscpu, nproc, arch
+
+init 6, reboot, shutdown -r now
+
+poweroff, init 0, shutdown -h now
+
+mplayer, eog, evince, okular, xpdf tool’s
+
+Wine tool for executing Windows exe file’s in linux OS
+
+cryptr tool
+
+xrdp tool
+
+mobaXterm, WinSCP, PuTTY software’s
+
+shred tool
+
+magic wormhole tool
+
+strace tool
+
+chkrootkit, rkhunter
+
+fping -aqg ip/24, sudo arp-scan 10.0.0.0/24, sudo netdiscover -i eth0, angry ip scanner tool
+
+whois domainname
+
+what is trace route, command: traceroute domainname/ip
+
+what is ping and background working process and why we use?
+
+dig tool
+
+sudo ifconfig eth0 down, sudo ip link set eth0 down, sudo nmcli dev disconnect eth0, sudo systemctl stop NetworkManager.service
+
+sudo ifconfig eth0 up, sudo ip link set eth0 up, sudo nmcli dev connect eth0, sudo systemctl start NetworkManager.service
+
+sudo -l
