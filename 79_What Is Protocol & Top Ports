@@ -1,0 +1,20 @@
+•	Protocols are sets of rules that define how data is transmitted and received between devices in a network. They ensure secure, efficient, and reliable communication. 
+
+Port Number — Service:
+21 — FTP
+22 — SSH
+23 — Telnet
+25 — SMTP
+53 — DNS
+67 — DHCP Server
+68 — DHCP Client
+139 — NetBIOS Session
+445 — SMB
+110 — POP3
+995 — POP3S
+143 — IMAP
+993 — IMAPS
+3389 — RDP
+3306 — MySQL
+2049 — NFS
+5900 — VNC
