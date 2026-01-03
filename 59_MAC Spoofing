@@ -1,0 +1,12 @@
+MAC Spoofing:
+•	MAC spoofing is a technique used to change the MAC address of a network interface to a different value.
+
+1. Check Current MAC Address : macchanger -s <interface>
+
+2. Set a Random MAC Address: macchanger -a <interface>
+
+3. Set a Specific MAC Address: macchanger -m <macid> <interface>
+
+4. List MAC Vendor Names: macchanger -l / --list
+
+5. Reverts to the original MAC address of the interface.: macchanger -p <interface>
