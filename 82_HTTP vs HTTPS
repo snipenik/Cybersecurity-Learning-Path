@@ -1,0 +1,13 @@
+1. HTTP – HyperText Transfer Protocol
+A protocol used to transfer data (like web pages) between your browser and a website.
+Example: http://example.com
+Not secure – data is sent in plain text.
+Can be intercepted by hackers.
+uses port 80
+
+2. HTTPS – HyperText Transfer Protocol Secure
+Same as HTTP, but with encryption using SSL/TLS.
+Example:https://example.com
+Secure – data is encrypted, protects against man-in-the-middle attacks.
+Used for secure websites, like banking, shopping, logins, etc.
+uses port 443
