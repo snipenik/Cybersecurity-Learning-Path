@@ -1,0 +1,11 @@
+IPv4:
+Address size: 32-bit
+Address format: Decimal (e.g., 192.168.1.1)
+Total addresses: ~4.3 billion
+
+IPv6:
+Address size: 128-bit
+Address format: Hexadecimal (e.g., 2001:db8::1)
+Total addresses: ~340 undecillion
+
+NOTE: IPv6 is needed because IPv4 addresses are running out due to the growing number of internet-connected devices
