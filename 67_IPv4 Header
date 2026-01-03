@@ -1,0 +1,18 @@
+ The IPv4 header contains routing and control information required to deliver packets from source to destination.
+      
+IPv4 Header Fields :
+
+Version – IP version (IPv4 = 4)
+IHL (Internet Header Length) – Header size
+Type of Service (ToS / DSCP) – Packet priority & QoS
+Total Length – Header + data size
+Identification – Packet ID for fragmentation
+Flags – Fragment control (DF, MF)
+Fragment Offset – Fragment position
+TTL (Time To Live) – Packet lifetime
+Protocol – Next-layer protocol (TCP=6, UDP=17, ICMP=1)
+Header Checksum – Error checking
+Source IP Address – Sender IP
+Destination IP Address – Receiver IP
+Options (Optional) – Extra features
+Padding – Align header to 32 bits
