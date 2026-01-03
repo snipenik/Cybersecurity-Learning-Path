@@ -1,0 +1,20 @@
+#SCP
+
+Download a file from a server :
+scp username@remote_ip:/remote/path/to/file /local/path/
+
+Upload a file to server :
+scp filename username@remote_ip:/remote/path/to/file
+
+
+copy file from a server to another client machine { Iam just mediator }
+scp user1@host1 ip:/path/to/file user2@host2 ip:/path/to/destination
+
+
+#sudo apt install rsync
+
+Sending file :
+rsync -v –progress sai.txt parrot@ip:/home/saijain
+
+Receiving file : 
+rsync -v –progress parrot@ip:/home/saijain/passwd /home/kali
