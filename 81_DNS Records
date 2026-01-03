@@ -1,0 +1,30 @@
+1.A → Maps domain to IPv4 address
+2.AAAA → Maps domain to IPv6 address
+3.PTR → Reverse DNS (IP → domain)
+4.MX  → An MX (Mail Exchanger) record specifies which mail server is responsible for receiving emails for a domain.
+
+5.CNAME Records → is used to map subdomain to main domain name.
+  Logic : DNS queries for help.dishtv.in will be redirected to dishtv.in, and the IP address for dishtv.in will be used.
+
+6.Integrated Services Digital Network → maps an ISDN telephone number to a domain name. This means when someone looks up that domain, they can retrieve the associated ISDN phone number.
+
+7.NS Record → An NS (Name Server) record specifies which DNS servers are authoritative for a domain.
+             👉 It tells the internet where to ask for DNS information about a domain.
+
+
+8.HINFO stands for Host Information.
+•	It’s a type of DNS record that provides basic info about the hardware and operating system of a host machine (a server or computer) associated with a domain.
+•	The HINFO DNS record contains two pieces of textual data describing the host machine’s hardware and software:
+
+1. CPU Type
+•	Examples: "Intel", "ARM", "SPARC", "x86_64", "PowerPC"
+
+2. Operating System
+•	Examples: "Linux", "Windows", "BSD", "Unix", "MacOS"
+
+9.TXT Record → A TXT (Text) record is used to store human-readable text in DNS and is mainly used for domain verification and email security.
+
+
+
+
+
