@@ -2,3 +2,21 @@ Promiscuous mode is a network interface setting where a NIC captures all network
 
 sudo ifconfig eth0 promisc  {ON} 
 sudo ifconfig eth0 -promisc {OFF} 
+
+By default, promiscuous mode is disabled on every major OS for security reasons In Lan level
+
+Promiscuous Mode Example on a Hub Network Scenario:
+•	You have several computers (PC1, PC2, PC3) connected to a network hub.
+•	A hub sends every packet it receives to all connected devices, no matter who the packet is addressed to.
+
+What Promiscuous Mode Does:
+•	When promiscuous mode is enabled on PC3’s network interface:
+o	PC3’s NIC accepts all packets sent through the hub, regardless of destination.
+o	It forwards every packet it receives up to the operating system.
+o	This allows tools like Wireshark to capture all network traffic flowing through the hub.
+
+Why This Matters:
+•	Normally, NICs only process packets addressed to their own MAC address.
+•	But in promiscuous mode, PC3 sees everything, including packets meant for PC1, PC2, or any other device.
+•	This is useful for network monitoring, troubleshooting, or security testing on LANs using hubs.
+
