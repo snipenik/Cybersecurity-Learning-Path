@@ -1,0 +1,7 @@
+NetBIOS (Network Basic Input/Output System) is a protocol that allows computers in a local network (LAN) to communicate using machine names instead of IP addresses.
+Developed by IBM , In 1983
+It uses port 137,138,139
+Its works in session layer (OSI model)
+UDP 137: Resolves NetBIOS names to IP addresses (name lookup).
+UDP 138: Sends broadcasts and alerts (connectionless, no real data transfer).
+TCP 139 is used for : Session establishment and management between two machines.
