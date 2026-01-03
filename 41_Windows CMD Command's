@@ -1,0 +1,24 @@
+dir , dir /a:-d , dir /ad
+cd dirname , cd .. , cd
+notepad filename , type filename
+del filename
+ren oldfname newfname
+mkdir dirname , rmdir dirname , rmdir dirname /s
+net users , net user username , net user username /add , net user username “pass” , net user username /del
+net localgroup administrators username /add , net localgroup Administrators , net localgroup Administrators user1 /del
+whoami /priv , whoami
+hostname , ipconfig
+arp -a
+netsh wlan show profiles , netsh wlan show profiles name="wifi name" key=clear
+netsh advfirewall show allprofiles
+netsh advfirewall set allprofiles state on
+netsh advfirewall set allprofiles state off
+netsh advfirewall firewall show rule name=all
+netsh advfirewall firewall show rule name="rule name"
+netsh advfirewall firewall show rule name=all dir=in
+netsh advfirewall firewall show rule name=all dir=out
+netsh advfirewall firewall delete rule name="rule name"
+netstat -an
+net start , net start servicename , net stop servicename
+shutdown /s /t 0 , shutdown /r /t 0
+cls , exit
