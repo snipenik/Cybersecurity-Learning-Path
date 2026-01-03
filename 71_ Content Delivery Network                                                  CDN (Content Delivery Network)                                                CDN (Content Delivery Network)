@@ -1,0 +1,14 @@
+A CDN (Content Delivery Network) is a network of globally distributed servers that store (cache) and deliver content faster, more securely, and efficiently to users based on their geographic location.
+Instead of delivering content from a single origin server, a CDN caches content on multiple edge servers worldwide. When a user requests a website, video, or file:
+
+1. The nearest CDN edge server responds to the request.
+2. Cached content is delivered instantly, reducing latency.
+3. If the content is not cached, the CDN fetches it from the origin server.
+
+✅ Faster Content Delivery – Reduces latency and speeds up website loading.
+✅ Reduced Server Load – Less strain on the origin server, improving performance.
+✅ Better Security – Protects against DDoS attacks and malicious bots.
+✅ Improved Website Availability – Ensures uptime even during high traffic.
+✅ Optimized Bandwidth Usage – Reduces data transfer costs.
+
+Example:youtube and Netflix and any website 
