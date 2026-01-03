@@ -1,0 +1,24 @@
+1. Bus Topology
+•	All devices are connected to a single cable (back bone).
+•	Data travels in both directions but can cause collisions.
+•	Example: Early Ethernet networks.
+
+2. Star Topology
+•	All devices are connected to a central hub or switch.
+
+3. Ring Topology
+•	Devices are connected in a circular loop.
+•	Data travels in one or both directions.
+
+4. Mesh Topology
+•	Every device is connected to every other device.
+•	Provides high reliability but is expensive.
+•	Example: Military and critical communication networks.
+
+5. Tree (Hierarchical) Topology
+•	A combination of star and bus topologies.
+•	Used in large organizations.
+•	Example: Large corporate networks.
+
+6. Hybrid Topology
+•	A hybrid topology is a combination of two or more different topologies (e.g., star + mesh + bus + tree )
