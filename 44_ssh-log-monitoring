@@ -1,0 +1,6 @@
+journalctl -u ssh.service
+• Who connected successfully, along with the source IP address
+• Who disconnected from the server, along with the IP address
+• Who entered an incorrect password, including the IP address and the username they attempted to log in as
+• When the SSH service started or stopped, and on which port it was listening
+• Which user account was used to log in to the server (e.g., kali, root)
