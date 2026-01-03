@@ -1,0 +1,9 @@
+RTSP (Real-Time Streaming Protocol) is a control protocol used to manage and control multimedia streams (audio/video) over IP networks.
+
+Default Port : 554
+
+Common Use Cases :
+IP cameras / CCTV
+Live video streaming
+Surveillance systems
+Media servers (VLC, cameras, NVRs)
