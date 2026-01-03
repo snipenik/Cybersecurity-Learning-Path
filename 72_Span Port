@@ -1,0 +1,6 @@
+A SPAN (Switched Port Analyzer) port, also known as port mirroring, is a feature in network switches that allows a copy of network traffic from one or multiple switch ports to be sent to another port for monitoring and analysis.
+
+✅ Network Monitoring – Capturing packets for analysis.
+✅ Intrusion Detection – Connecting IDS/IPS systems to detect threats.
+✅ Traffic Analysis – Troubleshooting network issues.
+✅ Security Auditing – Monitoring for suspicious activity.
