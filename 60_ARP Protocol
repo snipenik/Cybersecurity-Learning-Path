@@ -1,0 +1,45 @@
+What is ARP (Address Resolution Protocol)?
+ARP (Address Resolution Protocol) is a network protocol used to map an IP address to a MAC address inside a local network (LAN).
+
+Why ARP is Needed ?
+When a device knows the IP address of another device but does not know its MAC address, ARP helps find it so communication can happen.
+
+
+Working Methood :
+
+1️⃣ ARP Request (Broadcast)
+
+Device A wants to send data to IP: 192.168.1.10
+
+It checks its ARP table
+
+If MAC is not found, it sends an ARP Request
+
+Message: “Who has 192.168.1.10? Tell 192.168.1.5”
+
+This request is sent as a broadcast (FF:FF:FF:FF:FF:FF)
+
+
+2️⃣ ARP Reply (Unicast)
+
+Device B (IP: 192.168.1.10) receives the request
+
+It replies with its MAC address
+
+Reply is unicast (directly to requester)
+
+
+3️⃣ ARP Table Update
+
+Device A stores the mapping:
+
+192.168.1.10 → AA:BB:CC:DD:EE:FF
+
+This entry is saved in the ARP cache for some time
+
+
+4️⃣ Data Transmission
+
+Now Device A sends data frames using the MAC address
+
+Communication continues normally
