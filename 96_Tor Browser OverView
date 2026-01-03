@@ -1,0 +1,23 @@
+Tor Browser is a privacy-focused browser that allows anonymous internet access by routing traffic through the Tor network using onion routing.
+3 layer's of protection
+
+                                                                   
+                                                                    Tor Working Flow (Entry → Middle → Exit) 
+
+1️⃣ Entry Node (Guard Node)
+First Tor relay your system connects to
+Knows your real IP
+Does NOT know destination website
+
+2️⃣ Middle Relay
+Passes encrypted traffic between relays
+Knows only previous and next node
+Adds extra anonymity layer
+
+3️⃣ Exit Node
+Last relay before reaching destination
+Knows destination website
+Does NOT know your real IP
+Traffic is decrypted here (if not HTTPS)
+
+Download Link : https://www.torproject.org/download/
