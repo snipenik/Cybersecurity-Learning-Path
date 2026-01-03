@@ -1,0 +1,21 @@
+Root User :
+• The superuser in Linux with full administrative privileges.
+• Can access, modify, or delete any file or system setting.
+• Used for system administration tasks.
+
+UID range:0
+
+System Users :
+• Created automatically for system services and daemons.
+• Do not log in interactively.
+• Used by services like web servers, databases, and background processes.
+
+Examples: www-data, mysql, daemon
+UID range: 1–999
+
+Normal Users
+• Regular users created for human login.
+• Have limited permissions.
+• Cannot perform administrative tasks without sudo.
+
+UID range: 1000 and above
