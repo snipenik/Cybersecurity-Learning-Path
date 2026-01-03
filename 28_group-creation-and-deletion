@@ -1,0 +1,5 @@
+addgroup groupname
+• Creates a new group named groupname.
+
+delgroup groupname
+• Deletes the group named groupname.
