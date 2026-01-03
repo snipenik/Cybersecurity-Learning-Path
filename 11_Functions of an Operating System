@@ -1,0 +1,23 @@
+1. Process Management
+• Starts and stops processes.
+• The operating system decides which process accesses the CPU, in what order, and how much processing time each process receives.
+
+2. Memory Management
+• Manages the allocation and deallocation of memory to different processes.
+• Ensures that one process does not use memory allocated to another process.
+
+3. File System Management
+• Keeps track of file creation, deletion, copying, transfer, and storage.
+• Organizes files into directories for efficient navigation and usage.
+• Controls user access permissions and tracks where data is stored on disk.
+
+4. Input / Output (I/O) Management
+• Manages input and output operations between the computer system and external devices.
+
+Examples of I/O devices:
+• Keyboard
+• Mouse
+• Microphone
+• Printer
+• Hard drive
+• Monito
