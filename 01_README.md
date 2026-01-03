@@ -26,8 +26,9 @@ MySQL Tool (Database Connection & Enumeration) 🗄️
 Single Pivot (Practical) 🔁
 DoS / DDoS Concepts & Practical ⚠️
 Cloud Computing Fundamentals ☁️ {IaaS ,PaaS ,SaaS} etc....
+Dark Web Overview
 
-👉It also provides extensive hands-on experience 💻 with industry-standard cybersecurity tools such as Nmap, Wireshark, Nessus, Nikto, ZAP,Metasploit (msfconsole), John the Ripper, Hashcat, ettercap, bettercap Hydra, and Medusa, Angry IP Scanner, Crunch , CUPP, CEWL, Hping3, HOIC, Slowloris, Seeker , CamPhish, BEEF ,WpScan ,Joomscan ,Dirb & Dirbuster ⚙️ etc...
+👉It also provides extensive hands-on experience 💻 with industry-standard cybersecurity tools such as Nmap, Wireshark, Nessus, Nikto, ZAP,Metasploit (msfconsole), John the Ripper, Hashcat, ettercap, bettercap Hydra, and Medusa, Angry IP Scanner, IPTables, Snort, Crunch , CUPP, CEWL, Hping3, HOIC, Slowloris, Seeker , CamPhish, BEEF, WpScan, Joomscan,Dirb & Dirbuster, Tor, Recon-ng ⚙️ etc...
 
 🚨Note: This GitHub repository included some concepts only to impress, Explore the link below to access the complete learning content 📚.
 
