@@ -1,0 +1,15 @@
+1. Unicast
+•	Data is sent from a single source to a single destination.
+•	Example: One computer sending a message directly to another computer.   
+
+2.Broadcast
+•	Data is sent from one source to all devices in a network.
+•	Every device in the network receives the data, even if they don’t need it.
+•	Example: ARP Request (Address Resolution Protocol) – A router asks, “Who has this IP address?” and all devices in the network receive the request.
+•	Ex:hub 
+
+3.Multicast
+•	Data is sent from one source to a specific group of devices in a network.
+•	Only devices that are part of the multicast group receive the data.
+•	Example: Live Streaming or Video Conferencing – A server streams video to selected subscribers instead of all network devices.
+•	Ex:switch 
