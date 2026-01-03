@@ -1,0 +1,27 @@
+1. Reconnaissance
+• This phase involves gathering information about the target system or organization.
+• It includes both passive and active reconnaissance techniques, such as Open-Source Intelligence (OSINT).
+
+2. Scanning
+• Ethical hackers use various tools and techniques to identify open ports, services, and vulnerabilities on the target network.
+• It includes port scanning, vulnerability scanning, and network mapping.
+• Scanning helps create a detailed map of the target network and identify potential entry points.
+
+3. Gaining Access
+• This phase involves exploiting the identified vulnerabilities to gain unauthorized access to the target system or network.
+
+4. Maintaining Access
+• Once access is gained, the ethical hacker focuses on maintaining control over the compromised system or network.
+• This phase involves activities such as creating backdoors, installing rootkits, Trojans, keyloggers, and RATs.
+• The objective is to ensure continued access and gather additional information without being detected.
+
+5. Covering Tracks
+• An intelligent hacker clears all evidence so that, at a later point in time, no traces lead back to them.
+• In this final phase, the ethical hacker removes evidence to avoid detection, 
+
+Including:
+Deleting log files
+Clearing system logs
+Removing command history
+
+• The purpose is to make it difficult for forensic investigators to determine the extent of the breach and identify the attacker.
