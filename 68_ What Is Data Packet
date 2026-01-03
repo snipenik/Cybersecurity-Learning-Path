@@ -1,0 +1,6 @@
+                                                                              
+•	All data traveling in a network is transmitted in the form of packets. Large data is divided into multiple packets.
+
+  Structure of a Packet : A packet consists of two main parts
+•	1. Header – Contains metadata like source & destination IP addresses, protocol type, sequence number, etc.
+•	2. Payload (Data) – The actual data being transmitted (e.g., part of a file, message, or request).
