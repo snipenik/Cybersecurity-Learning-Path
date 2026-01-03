@@ -1,0 +1,41 @@
+1. /bin
+• Contains essential user binary executables.
+• Used by all normal users.
+• Examples: cp, mv, rm, nano, nice, netstat
+
+2. /sbin
+• Contains system binary executables used for system administration.
+• Usually accessed by the superuser (root).
+• Examples: init, shutdown, reboot, adduser, addgroup, arp, arp-scan
+
+3. /root
+• The home directory of the root user, who is the system administrator.
+
+4. /etc
+• Stores system-wide configuration files.
+• Includes network settings, user information, and system configurations.
+
+5. /tmp
+• Used to store temporary files.
+• Files are usually deleted when the system is restarted.
+
+6. /home
+• Contains home directories for regular users.
+• Each user has a personal directory named after their username.
+• Example: /home/sai stores personal files for the user sai.
+
+7. /boot
+• Contains files required to boot the operating system, such as the kernel and bootloader files.
+
+8. /media
+• Used for mounting removable media such as USB drives, DVDs, CDs, and external hard disks.
+• Devices are mounted in subdirectories named after the device.
+
+9. /mnt
+• A temporary mount point for manually mounted file systems.
+
+10. /opt
+• Used for installing optional or third-party software not managed by default package managers like apt or yum.
+
+11. /lib
+• Contains shared library files needed by the system and programs in /bin and /sbin.
